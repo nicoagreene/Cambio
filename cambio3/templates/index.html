@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Cambio Online</title>
+    <link href="/static/css/style.css" rel="stylesheet" />
+    <link
+        href="{{ url_for('static', filename='/static/css/style.css')}}"
+        rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Welcome to Online Cambio!</h1>
+    <p>At play cambio online you can:</p>
+    <p class = "p1">-Play cambio against bots!</p>
+    <p class = "p1">-Play cambio with friends!</p>
+    <p class = "p1">-Play cambio with friends and bots!</p>
+    <img class = "center" src="/static/images/cambio_cards.jpg" alt="My test image" width = "205" height = "265"/>          
+    <p>Never played before or want to brush up on the rules? click here: <a href ="https://cambiocardgame.com/">Cambio rules</a></p> <!--I want this link to open in new tab-->
+    <script src = "/static/js/game.js"></script>
+  </body>
+</html>
