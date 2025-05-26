@@ -97,7 +97,7 @@ class Bot(Player): #might want to have a player class and then bot class and you
             game.deck.addToDiscard(drawnCard)
             print(f"Not playing ... {drawnCard.toString()} was added to the discard pile ")
 
-    #Adding new ocmment for git
+    #
     
 
 
