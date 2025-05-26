@@ -1,6 +1,6 @@
-from gameLogic.Player import Player
+from Player import Player
 import random
-
+#edit for new commit
 class Bot(Player): #might want to have a player class and then bot class and you class as subclass
     knownCards = [0,0,0,0] # basically if index is an int bot doesnt know it, if its a card object bot does 
     # this is subject to change but should it be card object in list or just string? I think object  
