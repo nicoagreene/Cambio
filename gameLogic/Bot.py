@@ -1,4 +1,4 @@
-from Player import Player
+from .Player import Player #.player indicates that player is inside same gameLogic module
 import random
 #edit for new commit
 class Bot(Player): #might want to have a player class and then bot class and you class as subclass
